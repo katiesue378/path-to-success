@@ -1,0 +1,206 @@
+/* CSS BY KATIE MARSHALL */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/* CSS RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ROOT VARIABLES */
+:root {
+    --teal:#4CA7C0;
+    --purple: #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57;
+    --pink: #D9526F;
+    --dk-gray: #1E1E1E;
+    --white: #ffffff;
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-family: "Kavoon";
+        font-size: 3em;
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    h2 {
+        font-family: "Kavoon";
+        font-size: 2em;
+        color: var(--white);
+    }
+
+    nav {
+        font-family: "Inter";
+        background-color: var(--yellow);
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    nav h2 {
+        font-size: 1.5em;
+        font-family: "Inter";
+        color: var(--dk-gray);
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li {
+        margin-bottom: 5px;
+    }
+
+    nav a {
+        display: block;
+        background-color: var(--white);
+        color: var(--purple);
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    nav a:hover {
+        background-color: var(--pink);
+    }
+
+    h3 {
+        font-size: 1.5em;
+        color: var(--yellow);
+    }
+
+    h4 {
+        font-size: 1.15em;
+        color: var(--purple);
+    }
+
+    body {
+        font-family: "Inter";
+        background-color: var(--lavender);
+        margin: 0;
+        padding: 0;
+    }
+
+    .content-container {
+        max-width: 375px;
+        margin: 0 auto;
+        background-color: var(--purple);
+        padding-top: none;
+    }
+
+    header {
+        background-color: var(--purple);
+        color: var(--white);
+        text-align: center;
+    }
+
+    header p {
+        padding-bottom: 20px;
+    }
+
+    #ourservices {
+        background-color: var(--purple);
+        padding-top: 10px;
+    }
+
+    #chooseus {
+        background-color: var(--pink);
+    }
+
+    #prices {
+        background-color: var(--purple);
+    }
+
+    #firststep {
+        background-color: var(--pink);
+        padding: 5px 5px;
+    }
+    
+    #firststep p {
+        color: var(--white);
+        padding: 10px 10px;
+    }
+
+    .shadow-button {
+        color: var(--dk-gray);
+        text-transform: uppercase;
+        background-color: var(--white);
+        border: none;
+        text-align: center;
+        font-size: 1em;
+        text-decoration: none;
+        padding: 15px 75px;
+        justify-content: center;
+        border-radius: 8px;
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 1);
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer {
+        color: var(--white);
+    }
+
+    footer a {
+        color: var(--white);
+    }
+}
+
+

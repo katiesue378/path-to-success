@@ -83,7 +83,7 @@ table {
         font-family: "Inter";
         background-color: var(--yellow);
         padding: 10px;
-        margin: 0 auto;
+        margin: 0;
         text-align: center;
     }
 
@@ -94,6 +94,7 @@ table {
         font-weight: bold;
         margin-bottom: 10px;
         text-align: center;
+        font-style: italic;
     }
 
     nav ul {
@@ -114,7 +115,8 @@ table {
         padding: 10px;
         border-radius: 3px;
         text-align: center;
-        font-size: 1em;
+        font-size: .6em;
+        font-weight: bold;
     }
 
     nav a:hover {
@@ -142,7 +144,7 @@ table {
         max-width: 375px;
         margin: 0 auto;
         background-color: var(--purple);
-        padding-top: none;
+        padding: 20px 16px;
     }
 
     header {
@@ -153,6 +155,25 @@ table {
 
     header p {
         padding-bottom: 20px;
+        font-style: italic;
+    }
+
+    .service-card {
+        background-color: var(--white);
+        padding: 16px;
+        margin-bottom: 16px;
+        border-radius: 12px;
+    }
+
+    main h2 {
+        margin: 5px 0 5px;
+        font-size: 20px;
+    }
+
+    #ourservices h3 {
+        margin: 0 0 10px;
+        font-size: 14px;
+        font-weight: bold;
     }
 
     #ourservices {
@@ -160,22 +181,183 @@ table {
         padding-top: 10px;
     }
 
-    #chooseus {
-        background-color: var(--pink);
+    #ourservices h4 {
+        font-size: 12px;
+        font-weight: bold;
+        padding-bottom: 5px;
     }
 
-    #prices {
-        background-color: var(--purple);
+    #ourservices img {
+        width: 50px;
+        height: 50px;
     }
+
+    #ourservices p {
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+
+    #chooseus {
+        background-color: var(--pink);
+        padding: 10px;
+        text-align: left;
+        color: var(--white);
+    }
+    
+    #chooseus h2 {
+        padding: 5px;
+    }
+
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+      
+    .feature-box {
+        padding: 20px;
+        border-radius: 8px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 16px;
+        color: #000;
+    }
+      
+      /* Custom background colors */
+    .teal {
+        background-color: var(--teal);
+    }
+      
+    .blue {
+        background-color: var(--lavender);
+    }
+      
+    .yellow {
+        background-color: var(--yellow);
+    }
+      
+    .white {
+        background-color: var(--white);
+    }
+
+    .pricing-section {
+        background-color: var(--purple); 
+        color: var(--white);
+        padding: 32px 16px;
+    }
+      
+    .pricing-section h2 {
+        
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+      
+    .pricing-group {
+        margin-bottom: 32px;
+    }
+      
+    .pricing-group h3 {
+        font-size: 20px;
+        color: var(--yellow); 
+        margin-bottom: 12px;
+    }
+      
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: var(--white);
+        overflow: hidden;
+    }
+      
+    thead {
+        background-color: var(--yellow);
+        color: black;
+    }
+      
+    thead th {
+        padding: 12px;
+        text-align: left;
+        font-weight: bold;
+        font-size: 14px;
+    
+    }
+      
+    tbody td {
+        padding: 12px;
+        color: #333;
+        font-size: 14px;
+        border-top: 1px solid var(--white);
+        border-right: 2px solid var(--yellow);
+    }
+
+    tbody tr {
+        border-bottom: 2px solid var(--yellow);
+    }
+      
+    .pricing-section {
+        background-color: var(--purple); 
+        color: var(--white);
+        padding: 32px 16px;
+    }
+      
+    .pricing-section h2 {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+      
+    .pricing-group {
+        margin-bottom: 32px;
+    }
+      
+    .pricing-group h3 {
+        font-size: 20px;
+        color: var(--yellow); 
+        margin-bottom: 12px;
+    }
+      
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: var(--white);
+        overflow: hidden;
+    }
+      
+    thead {
+        background-color: var(--yellow);
+        color: black;
+    }
+      
+    thead th {
+        padding: 12px;
+        text-align: left;
+        font-weight: bold;
+        font-size: 14px;
+    }
+      
+    tbody td {
+        padding: 12px;
+        color: var(--dk-gray);
+        font-size: 14px;
+        border-top: 1px solid var(--white);
+      }
+      
+      
 
     #firststep {
         background-color: var(--pink);
-        padding: 5px 5px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+
+    }
+
+    #firststep h2 {
+        padding-top: 10px;
     }
     
     #firststep p {
         color: var(--white);
-        padding: 10px 10px;
+        padding: 5px 0 10px;
+        font-size: .8em;
     }
 
     .shadow-button {

@@ -332,17 +332,16 @@ table {
         text-align: left;
         font-weight: bold;
         font-size: 14px;
+        text-transform: uppercase;
     }
       
     tbody td {
         padding: 12px;
         color: var(--dk-gray);
         font-size: 14px;
-        border-top: 1px solid var(--white);
+    
       }
       
-      
-
     #firststep {
         background-color: var(--pink);
         padding-left: 5px;
@@ -376,13 +375,32 @@ table {
         margin: 0 auto;
     }
 
-    footer {
+    .site-footer {
+        background-color: var(--purple); 
+        padding: 16px;
         color: var(--white);
-    }
-
-    footer a {
+      }
+      
+      .footer-content {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 500px;
+        margin: 0 auto;
+        font-size: .7em;
+        padding-top: 20px;
+      }
+      
+      .footer-content a {
         color: var(--white);
-    }
+        text-decoration: underline;
+        font-weight: 500;
+      }
+      
+      .footer-content a:hover {
+        text-decoration: none;
+      }
+      
 }
 
 

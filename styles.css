@@ -65,7 +65,7 @@ table {
 }
 
 /* GLOBAL STYLES (mobile first/small) */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
     h1 {
         font-family: "Kavoon";
         font-size: 3em;
